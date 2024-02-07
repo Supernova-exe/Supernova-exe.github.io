@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7155b1a2.css",
+    "main.js": "/static/js/main.ef535311.js",
+    "static/js/228.511378f1.chunk.js": "/static/js/228.511378f1.chunk.js",
+    "static/js/592.208eef96.chunk.js": "/static/js/592.208eef96.chunk.js",
+    "static/media/Supernova.jpg": "/static/media/Supernova.e910b0edee0ed907d49d.jpg",
+    "static/media/SupernovaPlanetLogoTransparent.png": "/static/media/SupernovaPlanetLogoTransparent.74f304c4e64554db938f.png",
+    "static/media/SupernovaSLogoTransparent.png": "/static/media/SupernovaSLogoTransparent.ca440c660c72c67fdb10.png",
+    "index.html": "/index.html",
+    "static/media/WhoWeAre.md": "/static/media/WhoWeAre.c39c4ec7c9250bc44597.md",
+    "main.7155b1a2.css.map": "/static/css/main.7155b1a2.css.map",
+    "main.ef535311.js.map": "/static/js/main.ef535311.js.map",
+    "592.208eef96.chunk.js.map": "/static/js/592.208eef96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7155b1a2.css",
+    "static/js/main.ef535311.js"
+  ]
+}
