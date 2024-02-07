@@ -18,7 +18,7 @@
 }
 @media (max-width: 2560px) {
     .layout nav {
-       margin-left: -2.5vw;
+       margin-left: 0;
     }
 }
 @media (max-width: 1200px) {
