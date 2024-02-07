@@ -16,7 +16,9 @@ const Layout = () => {
                     <li className = "li-1">
                         <Link className= "link" to="/meet">Meet the team</Link>
                     </li>
-                    <li className= "li-2"><Link className = "link" to = "/outreach">Outreach</Link></li>
+                     {/*<li className= "li-2">*/}
+                     {/*    <Link className = "link" to = "/outreach">Outreach</Link>*/}
+                     {/*</li>*/}
                 </ul>
             </nav>
                 {/*<div className="logo">*/}

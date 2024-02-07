@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
 
     return (
      <div className = "homePage">
-        <TextImageOverlay imageUrl={mainImage} alt= "picture of team members with their robot">
+        <TextImageOverlay imageUrl={mainImage} alt= "picture of team">
             <h1>SUPERNOVA.EXE 21774</h1>
         </TextImageOverlay>
          <div className = "aboutUs">

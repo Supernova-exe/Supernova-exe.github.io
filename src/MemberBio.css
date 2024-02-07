@@ -1,0 +1,73 @@
+:root
+{
+  --bio-size: 400px;
+}
+@media (max-width: 768px) {
+  :root
+  {
+    --bio-size: 300px;
+  }
+}
+@media (max-width: 576px) {
+  :root
+  {
+    --bio-size: 200px;
+  }
+}
+@media (max-width: 375px) {
+  :root
+  {
+    --bio-size: 150px;
+  }
+  p {
+    font-size: 0.9em;
+  }
+
+}
+@media (max-width: 320px) {
+  :root
+  {
+    --bio-size: 100px;
+  }
+  p {
+    font-size: 0.7em;
+  }
+
+}
+@media (max-width: 280px) {
+  :root
+  {
+    --bio-size: 50px;
+  }
+  p {
+    font-size: 0.5em;
+  }
+
+}
+
+.memberBio {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid magenta;
+  border-radius: 5px;
+  background-color: hotpink;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: var(--bio-size);
+  height: min-content;
+}
+.memberBio img
+{
+    width: var(--bio-size);
+    height: auto;
+}
+.memberBio h1
+{
+  margin: 0;
+}
+.memberBio p
+{
+  margin: 0;
+  padding: 0;
+}

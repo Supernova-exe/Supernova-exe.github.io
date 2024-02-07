@@ -1,5 +1,5 @@
 .layout {
-    display: inline;
+    display: inline-grid;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -8,44 +8,13 @@
 }
 
 .layout nav {
-    display: flex;
+    display: grid;
     justify-content: space-around;
     list-style: none;
     background-color: hotpink;
     color: black;
-    margin-left: 0;
     width: 90vw;
-}
-@media (max-width: 2560px) {
-    .layout nav {
-       margin-left: 0;
-    }
-}
-@media (max-width: 1200px) {
-    .layout nav {
-       margin-left: -4vw;
-    }
-}
-@media (max-width: 768px) {
-    .layout nav {
-       margin-left: -9vw;
-    }
-
-}
-@media (max-width: 576px) {
-    .layout nav {
-       margin-left: -23vw;
-    }
-}
-@media (max-width: 375px) {
-    .layout nav {
-       margin-left: -28vw;
-    }
-}
-@media (max-width: 320px) {
-    .layout nav {
-       margin-left: -33vw;
-    }
+    margin-left: -175px;
 }
 
 .layout nav ul {
