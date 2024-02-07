@@ -1,3 +1,1 @@
-We are a second year community based team based in Potomac, MD made of seven middle school students.
-
-
+We are a second year community-based FTC team comprised of seven middle school students and a proud member of Rockville Robotics Inc.

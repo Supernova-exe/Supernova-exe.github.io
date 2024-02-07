@@ -22,14 +22,12 @@ const HomePage: React.FC = () => {
         <TextImageOverlay imageUrl={mainImage} alt= "picture of team members with their robot">
             <h1>SUPERNOVA.EXE 21774</h1>
         </TextImageOverlay>
-         <center>
          <div className = "aboutUs">
          <h1>Who we are</h1>
              <Markdown>
                     {markdown}
              </Markdown>
          </div>
-         </center>
      </div>
  )
 }

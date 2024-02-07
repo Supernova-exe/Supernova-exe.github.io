@@ -13,27 +13,38 @@
     list-style: none;
     background-color: hotpink;
     color: black;
+    margin-left: 0;
     width: 90vw;
+}
+@media (max-width: 2560px) {
+    .layout nav {
+       margin-left: -2.5vw;
+    }
+}
+@media (max-width: 1200px) {
+    .layout nav {
+       margin-left: -4vw;
+    }
 }
 @media (max-width: 768px) {
     .layout nav {
-       margin-left: -5vw;
+       margin-left: -9vw;
     }
 
 }
 @media (max-width: 576px) {
     .layout nav {
-       margin-left: -10vw;
+       margin-left: -23vw;
     }
 }
 @media (max-width: 375px) {
     .layout nav {
-       margin-left: -15vw;
+       margin-left: -28vw;
     }
 }
 @media (max-width: 320px) {
     .layout nav {
-       margin-left: -20vw;
+       margin-left: -33vw;
     }
 }
 
@@ -79,6 +90,7 @@
 }
 .layout nav ul li
 {
+white-space: nowrap;
     margin-left: calc(min(5vw, 5%) + 1em);
 }
 .page
