@@ -1,6 +1,6 @@
 import React from "react";
 import "./Layout.css";
-import SLogo from "./images/SupernovaSLogoTransparent.png";
+import SLogo from "./images/SuperNova
 import  PlanetLogo from "./images/SupernovaPlanetLogoTransparent.png";
 import {Link, Outlet} from "react-router-dom";
 const Layout = () => {
