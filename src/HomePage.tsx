@@ -1,22 +1,14 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "./HomePage.css";
 import TextImageOverlay from "./TextImageOverlay";
 import mainImage from "./images/Supernova.jpg";
 import Markdown from "react-markdown";
+import GetMarkdown from "./GetMarkdown";
 
-const path : string = "WhoWeAre.md";
+const WhoWeArePath : string = "WhoWeAre.md";
+const GetInTouchPath : string = "GetInTouch.md";
 const HomePage: React.FC = () => {
-    const [markdown, setMarkdown] = useState('');
-    useEffect(() => {
-        import(("./markdown/" + path))
-            .then(res => {
-                fetch(res.default)
-                    .then(res => res.text())
-                    .then(res => setMarkdown(res))
-                    .catch(err => console.log(err));
-            })
-            .catch(err => console.log(err));
-    });
+
     return (
      <div className = "homePage">
         <TextImageOverlay imageUrl={mainImage} alt= "picture of team members with their robot">
@@ -25,12 +17,14 @@ const HomePage: React.FC = () => {
          <div className = "aboutUs">
          <h1>Who we are</h1>
              <Markdown>
-                    {markdown}
+                    {GetMarkdown(WhoWeArePath)}
              </Markdown>
          </div>
          <div className="getInTouch">
                 <h1>Get in touch</h1>
-                <p>If you have any questions or just want to reach out send us an email at <a href="mailto:supernova21774@gmail.com ">supernova21774@gmail.com</a></p>
+             <Markdown>
+                    {GetMarkdown(GetInTouchPath)}
+             </Markdown>
          </div>
      </div>
  )
