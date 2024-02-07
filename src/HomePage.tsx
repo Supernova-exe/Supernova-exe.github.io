@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
                     .catch(err => console.log(err));
             })
             .catch(err => console.log(err));
-    }, [path]);
+    });
     return (
      <div className = "homePage">
         <TextImageOverlay imageUrl={mainImage} alt= "picture of team members with their robot">
@@ -27,6 +27,10 @@ const HomePage: React.FC = () => {
              <Markdown>
                     {markdown}
              </Markdown>
+         </div>
+         <div className="getInTouch">
+                <h1>Get in touch</h1>
+                <p>If you have any questions or just want to reach out send us an email at <a href="mailto:supernova21774@gmail.com ">supernova21774@gmail.com</a></p>
          </div>
      </div>
  )

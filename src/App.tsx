@@ -7,14 +7,16 @@ import MeetTheTeamPage from "./MeetTheTeamPage";
 const App : React.FC = () => {
   return (
       <div className="App">
-        <BrowserRouter>
-          <Routes>
-            <Route path = "/*" element={<Layout/>}>
-            <Route index element = {<HomePage/>}/>
-                <Route path = "meet" element = {<MeetTheTeamPage/>}/>
-            </Route>
-          </Routes>
-        </BrowserRouter>
+          <BrowserRouter>
+              <Routes>
+                  <Route path="/*" element={<Layout/>}>
+                      <Route index element={<HomePage/>}/>
+                      <Route path="meet" element={<MeetTheTeamPage/>}/>
+                  </Route>
+              </Routes>
+          </BrowserRouter>
+          <br/><br/><br/>
+
       </div>
   );
 }
