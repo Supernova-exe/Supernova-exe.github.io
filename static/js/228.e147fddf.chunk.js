@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[228],{228:(e,s,a)=>{e.exports=a.p+"static/media/WhoWeAre.316e365fa5ebd22ef3d7.md"}}]);
