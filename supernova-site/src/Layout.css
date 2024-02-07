@@ -1,0 +1,63 @@
+.layout {
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-color: hotpink;
+}
+
+.layout nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1em;
+    background-color: hotpink;
+    color: black;
+    width: 100%;
+}
+
+.layout nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -5vw;
+    width: 30%;
+}
+.layout .logo
+{
+    display: flex;
+    z-index: 1;
+    height: 0;
+
+}
+.layout .logo .s-logo
+{
+    margin-left: 87.5vw;
+    margin-top: 3vh;
+}
+.layout .logo .planetLogo
+{
+    margin-top: -12vh;
+}
+.layout .logo img
+{
+    margin-left: 5vw;
+    margin-right: 10vw;
+    z-index: 3;
+    width: auto;
+    height: 100px;
+    display: flex;
+}
+.layout nav ul li .link {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li .link:hover {
+    color: pink;
+}
+.page
+{
+    padding-bottom: 10vh;
+}
