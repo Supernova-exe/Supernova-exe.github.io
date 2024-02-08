@@ -1,0 +1,34 @@
+.sponsorsPage {
+    display: inline-list-item;
+    flex-direction: row;
+    background-color: hotpink;
+}
+:root {
+    --sponsor-size: 600px;
+}
+/*TODO: add @media to change the size of the sponsor images */
+.sponsorsPage img{
+    margin: 20px;
+    width: var(--sponsor-size);
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+@media (max-width: 768px) {
+    :root
+    {
+        --sponsor-size: 300px;
+    }
+}
+@media (max-width: 576px) {
+    :root
+    {
+        --sponsor-size: 200px;
+    }
+}
+@media (max-width: 375px) {
+    :root
+    {
+        --sponsor-size: 150px;
+    }
+}
