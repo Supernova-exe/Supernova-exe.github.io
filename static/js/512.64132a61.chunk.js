@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[512],{512:(e,s,a)=>{e.exports=a.p+"static/media/Noor.dbc382d36daa462a869f.md"}}]);

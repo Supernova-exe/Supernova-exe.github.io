@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.f7e5543b.css",
-    "main.js": "/static/js/main.d8414aff.js",
+    "main.js": "/static/js/main.3a4b7c22.js",
     "static/js/764.1e9b6f62.chunk.js": "/static/js/764.1e9b6f62.chunk.js",
     "static/js/228.e7073cfa.chunk.js": "/static/js/228.e7073cfa.chunk.js",
-    "static/js/16.678d5d56.chunk.js": "/static/js/16.678d5d56.chunk.js",
+    "static/js/16.4e5c78da.chunk.js": "/static/js/16.4e5c78da.chunk.js",
     "static/js/396.739b7946.chunk.js": "/static/js/396.739b7946.chunk.js",
-    "static/js/744.89daf515.chunk.js": "/static/js/744.89daf515.chunk.js",
-    "static/js/512.572b16ac.chunk.js": "/static/js/512.572b16ac.chunk.js",
-    "static/js/828.fd6e9c42.chunk.js": "/static/js/828.fd6e9c42.chunk.js",
-    "static/js/484.873e5534.chunk.js": "/static/js/484.873e5534.chunk.js",
-    "static/js/356.ec6b6e74.chunk.js": "/static/js/356.ec6b6e74.chunk.js",
+    "static/js/744.254a9a7b.chunk.js": "/static/js/744.254a9a7b.chunk.js",
+    "static/js/512.64132a61.chunk.js": "/static/js/512.64132a61.chunk.js",
+    "static/js/828.e8ef7f6f.chunk.js": "/static/js/828.e8ef7f6f.chunk.js",
+    "static/js/484.65db1f10.chunk.js": "/static/js/484.65db1f10.chunk.js",
+    "static/js/356.f0ee6d8e.chunk.js": "/static/js/356.f0ee6d8e.chunk.js",
     "static/js/592.208eef96.chunk.js": "/static/js/592.208eef96.chunk.js",
     "static/media/ThomasSupernova.jpg": "/static/media/ThomasSupernova.33bd0a43e4b7b3d26d61.jpg",
     "static/media/SherrySupernova.jpg": "/static/media/SherrySupernova.ce04a9283f5fc39438b8.jpg",
@@ -24,18 +24,18 @@
     "static/media/Isaac.md": "/static/media/Isaac.4def733ab1ba14838c3a.md",
     "static/media/WhoWeAre.md": "/static/media/WhoWeAre.93de581209d9eb1e7e08.md",
     "static/media/GetInTouch.md": "/static/media/GetInTouch.ec5f6346fb0d64c08b1d.md",
-    "static/media/Billy.md": "/static/media/Billy.31d6cfe0d16ae931b73c.md",
-    "static/media/Kate.md": "/static/media/Kate.31d6cfe0d16ae931b73c.md",
-    "static/media/Noor.md": "/static/media/Noor.31d6cfe0d16ae931b73c.md",
-    "static/media/Sherry.md": "/static/media/Sherry.31d6cfe0d16ae931b73c.md",
-    "static/media/Thomas.md": "/static/media/Thomas.31d6cfe0d16ae931b73c.md",
-    "static/media/Vinutha.md": "/static/media/Vinutha.31d6cfe0d16ae931b73c.md",
+    "static/media/Kate.md": "/static/media/Kate.dbc382d36daa462a869f.md",
+    "static/media/Noor.md": "/static/media/Noor.dbc382d36daa462a869f.md",
+    "static/media/Billy.md": "/static/media/Billy.4101295d95c47053ea90.md",
+    "static/media/Sherry.md": "/static/media/Sherry.28fa16548f2441154ba3.md",
+    "static/media/Thomas.md": "/static/media/Thomas.28fa16548f2441154ba3.md",
+    "static/media/Vinutha.md": "/static/media/Vinutha.28fa16548f2441154ba3.md",
     "main.f7e5543b.css.map": "/static/css/main.f7e5543b.css.map",
-    "main.d8414aff.js.map": "/static/js/main.d8414aff.js.map",
+    "main.3a4b7c22.js.map": "/static/js/main.3a4b7c22.js.map",
     "592.208eef96.chunk.js.map": "/static/js/592.208eef96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7e5543b.css",
-    "static/js/main.d8414aff.js"
+    "static/js/main.3a4b7c22.js"
   ]
 }

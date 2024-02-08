@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[484],{484:(e,s,a)=>{e.exports=a.p+"static/media/Thomas.31d6cfe0d16ae931b73c.md"}}]);
