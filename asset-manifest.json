@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1603bfa.css",
-    "main.js": "/static/js/main.3a4b7c22.js",
+    "main.css": "/static/css/main.6a7c066c.css",
+    "main.js": "/static/js/main.68872020.js",
     "static/js/764.1e9b6f62.chunk.js": "/static/js/764.1e9b6f62.chunk.js",
     "static/js/228.e7073cfa.chunk.js": "/static/js/228.e7073cfa.chunk.js",
     "static/js/16.4e5c78da.chunk.js": "/static/js/16.4e5c78da.chunk.js",
-    "static/js/396.739b7946.chunk.js": "/static/js/396.739b7946.chunk.js",
+    "static/js/396.a4cfc4b6.chunk.js": "/static/js/396.a4cfc4b6.chunk.js",
     "static/js/744.254a9a7b.chunk.js": "/static/js/744.254a9a7b.chunk.js",
     "static/js/512.64132a61.chunk.js": "/static/js/512.64132a61.chunk.js",
     "static/js/828.e8ef7f6f.chunk.js": "/static/js/828.e8ef7f6f.chunk.js",
@@ -20,8 +20,12 @@
     "static/media/NoorSupernova.jpg": "/static/media/NoorSupernova.14d11cd8863f53a3b9b3.jpg",
     "static/media/BillySupernova.jpg": "/static/media/BillySupernova.5d1cb77105d4d7424849.jpg",
     "static/media/Supernova.jpg": "/static/media/Supernova.da7cdf6da4c5e16de41b.jpg",
+    "static/media/Redhat.png": "/static/media/Redhat.e5804efed1297a850eb2.png",
+    "static/media/VIAVI.png": "/static/media/VIAVI.b391eec24f1ddc96c179.png",
+    "static/media/MontgomeryPrinting.png": "/static/media/MontgomeryPrinting.593bcca1957b9349fd1c.png",
+    "static/media/GoBuilda.png": "/static/media/GoBuilda.70392c3f4881cea1a4d5.png",
     "index.html": "/index.html",
-    "static/media/Isaac.md": "/static/media/Isaac.4def733ab1ba14838c3a.md",
+    "static/media/Isaac.md": "/static/media/Isaac.47ddbdae0d5d2e9f3a2d.md",
     "static/media/WhoWeAre.md": "/static/media/WhoWeAre.93de581209d9eb1e7e08.md",
     "static/media/GetInTouch.md": "/static/media/GetInTouch.ec5f6346fb0d64c08b1d.md",
     "static/media/Kate.md": "/static/media/Kate.dbc382d36daa462a869f.md",
@@ -30,12 +34,12 @@
     "static/media/Sherry.md": "/static/media/Sherry.28fa16548f2441154ba3.md",
     "static/media/Thomas.md": "/static/media/Thomas.28fa16548f2441154ba3.md",
     "static/media/Vinutha.md": "/static/media/Vinutha.28fa16548f2441154ba3.md",
-    "main.f1603bfa.css.map": "/static/css/main.f1603bfa.css.map",
-    "main.3a4b7c22.js.map": "/static/js/main.3a4b7c22.js.map",
+    "main.6a7c066c.css.map": "/static/css/main.6a7c066c.css.map",
+    "main.68872020.js.map": "/static/js/main.68872020.js.map",
     "592.208eef96.chunk.js.map": "/static/js/592.208eef96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1603bfa.css",
-    "static/js/main.3a4b7c22.js"
+    "static/css/main.6a7c066c.css",
+    "static/js/main.68872020.js"
   ]
 }
