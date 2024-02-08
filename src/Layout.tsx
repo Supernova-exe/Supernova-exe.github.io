@@ -1,5 +1,5 @@
 import React from "react";
-import
+import SuperNovaPlanetLogo from "./images/SupernovaPlanetLogoTransparent.png";
 import "./Layout.css";
 import {Link, Outlet} from "react-router-dom";
 const Layout = () => {
@@ -10,10 +10,10 @@ const Layout = () => {
                 <ul>
                     <li>
                         <Link className="link" to = "/">
-                        <img s/>
+                            <div className= "logo"> <h1>SUPERNOVA.EXE</h1> <img src={SuperNovaPlanetLogo} alt= "A planet with the text SUPERNOVA.EXE written on it" /></div>
                         </Link>
                     </li>
-                    <li >
+                    <li>
                         <Link className= "link" to="/">Home</Link>
                     </li>
                     <li >

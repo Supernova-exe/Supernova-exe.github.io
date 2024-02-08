@@ -6,7 +6,6 @@
 :root {
     --sponsor-size: 600px;
 }
-/*TODO: add @media to change the size of the sponsor images */
 .sponsorsPage img{
     margin: 20px;
     width: var(--sponsor-size);

@@ -28,31 +28,20 @@
 
 /* other styles remain the same */
 
-.layout .logo
-{
-    display: flex;
-    z-index: 1;
-    height: 0;
 
-}
-.layout .logo .s-logo
+.layout nav ul li .logo
 {
-    margin-left: 87.5vw;
-    margin-top: 3vh;
-    margin-right: 0;
-}
-.layout .logo .planetLogo
-{
-    margin-top: -12vh;
-}
-.layout .logo img
-{
-    margin-left: 5vw;
-    margin-right: 10vw;
-    z-index: 3;
-    width: auto;
-    height: 100px;
     display: flex;
+    align-items : center;
+}
+.layout nav ul li img {
+    width: calc((10px + 2vw) * 2.25);
+    height: auto;
+}
+
+.layout nav ul li h1
+{
+    font-size: calc(5px + 1vw);
 }
 .layout nav ul li .link {
     color: black;
@@ -61,6 +50,9 @@
 
 .layout nav ul li .link:hover {
     color: pink;
+}
+.layout nav ul li .logo:hover {
+    color: black;
 }
 .layout nav ul li
 {
