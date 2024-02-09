@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a7c066c.css",
-    "main.js": "/static/js/main.68872020.js",
+    "main.css": "/static/css/main.80374888.css",
+    "main.js": "/static/js/main.80299c6c.js",
     "static/js/764.1e9b6f62.chunk.js": "/static/js/764.1e9b6f62.chunk.js",
     "static/js/228.e7073cfa.chunk.js": "/static/js/228.e7073cfa.chunk.js",
     "static/js/16.4e5c78da.chunk.js": "/static/js/16.4e5c78da.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/BillySupernova.jpg": "/static/media/BillySupernova.5d1cb77105d4d7424849.jpg",
     "static/media/Supernova.jpg": "/static/media/Supernova.da7cdf6da4c5e16de41b.jpg",
     "static/media/Redhat.png": "/static/media/Redhat.e5804efed1297a850eb2.png",
+    "static/media/SupernovaPlanetLogoTransparent.png": "/static/media/SupernovaPlanetLogoTransparent.74f304c4e64554db938f.png",
     "static/media/VIAVI.png": "/static/media/VIAVI.b391eec24f1ddc96c179.png",
     "static/media/MontgomeryPrinting.png": "/static/media/MontgomeryPrinting.593bcca1957b9349fd1c.png",
     "static/media/GoBuilda.png": "/static/media/GoBuilda.70392c3f4881cea1a4d5.png",
@@ -34,12 +35,12 @@
     "static/media/Sherry.md": "/static/media/Sherry.28fa16548f2441154ba3.md",
     "static/media/Thomas.md": "/static/media/Thomas.28fa16548f2441154ba3.md",
     "static/media/Vinutha.md": "/static/media/Vinutha.28fa16548f2441154ba3.md",
-    "main.6a7c066c.css.map": "/static/css/main.6a7c066c.css.map",
-    "main.68872020.js.map": "/static/js/main.68872020.js.map",
+    "main.80374888.css.map": "/static/css/main.80374888.css.map",
+    "main.80299c6c.js.map": "/static/js/main.80299c6c.js.map",
     "592.208eef96.chunk.js.map": "/static/js/592.208eef96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7c066c.css",
-    "static/js/main.68872020.js"
+    "static/css/main.80374888.css",
+    "static/js/main.80299c6c.js"
   ]
 }
