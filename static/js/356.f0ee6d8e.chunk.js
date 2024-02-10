@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[356],{356:(e,s,a)=>{e.exports=a.p+"static/media/Vinutha.28fa16548f2441154ba3.md"}}]);
