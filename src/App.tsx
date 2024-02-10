@@ -8,20 +8,19 @@ import OutreachPages from "./OutreachPages";
 import SponsorsPage from "./SponsorsPage";
 
 const App : React.FC = () => {
-    const [stickyFooter, setStickyFooter] = useState(false);
+    const [stickyFooter, setStickyFooter] = useState(true);
     const content = useRef(null);
 
     useEffect(() => {
         const resizeObserver = new ResizeObserver(entries => {
             for (let entry of entries) {
                 if (entry.target === content.current) {
-                    if (entry.contentRect.height < window.innerHeight - 91) {
+                    if (entry.contentRect.height  < window.innerHeight - 175) {
                         setStickyFooter(true);
                     } else {
                         setStickyFooter(false);
                     }
                 }
-                console.log(entry.contentRect.height, window.innerHeight, stickyFooter);
             }
         });
 
@@ -48,7 +47,6 @@ const App : React.FC = () => {
                     </Route>
                 </Routes>
             </HashRouter>
-            <br/><br/><br/>
         </div>
             <footer style={stickyFooter? {position : "absolute", bottom : "0", width: "100vw"} : {marginTop : "auto"}}>
                 <h1>Supernova.exe 21774</h1>
