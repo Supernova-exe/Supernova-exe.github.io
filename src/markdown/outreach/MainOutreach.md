@@ -1,0 +1,1 @@
+As a team one of our core values is outreach. Our outreach consists of both teaching others in our community but also learning from stem professionals.
