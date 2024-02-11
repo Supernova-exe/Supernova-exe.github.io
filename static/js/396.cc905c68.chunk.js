@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[396],{6396:(s,e,a)=>{s.exports=a.p+"static/media/Isaac.1b2cc78d95b6c33954d7.md"}}]);
