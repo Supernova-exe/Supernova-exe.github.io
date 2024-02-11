@@ -1,0 +1,33 @@
+.outreachMainPage
+{
+    font-size: 2rem;
+}
+.outreachMainPage ul
+{
+    list-style: none;
+}
+.outreachMainPage ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.outreachMainPage ul li
+{
+    margin: 3rem   auto;
+    width: min(50vw, 30rem);
+    background-color: #d0659b;
+    height: 3rem;;
+}
+.outreachMainPage ul li a
+{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.outreachMainPage ul li :hover
+{
+    transition: background-color 0.5s;
+    background-color: #ec5ea2;
+}

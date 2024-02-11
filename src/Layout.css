@@ -38,12 +38,14 @@
     text-decoration: none;
 }
 
-.layout nav ul li .link:hover,
-.layout nav ul li .logo:hover {
+.layout nav ul li .link:hover, .layout nav ul li .link:active {
+    transition: color 0.5s;
+
     color: pink;
 }
 
-.page {
+.not-footer
+{
     padding-bottom: 10vh;
 }
 
@@ -78,7 +80,6 @@
 }
 
 
-/*makes sure that the elements in the logo div are inline*/
 .logo
 {
     display: flex;

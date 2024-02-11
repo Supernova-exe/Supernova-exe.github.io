@@ -11,8 +11,13 @@
 
 footer {
   background: #ff76ba;
-}
 
+}
+header a, footer a
+{
+  text-decoration: none;
+  color: black;
+}
 
 
 
