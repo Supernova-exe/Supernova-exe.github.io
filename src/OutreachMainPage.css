@@ -16,7 +16,12 @@
     margin: 3rem   auto;
     width: min(50vw, 30rem);
     background-color: #d0659b;
-    height: 3rem;;
+    height: fit-content;
+}
+.outreachMainPage ul
+{
+    padding: 0;
+    margin: 0;
 }
 .outreachMainPage ul li a
 {
@@ -30,4 +35,10 @@
 {
     transition: background-color 0.5s;
     background-color: #ec5ea2;
+}
+@media (max-width: 350px) {
+    .outreachMainPage ul li
+    {
+        width: 80vw;
+    }
 }

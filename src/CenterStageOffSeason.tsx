@@ -13,7 +13,7 @@ const CenterStageOffSeason : React.FC = () => {
     return (
         <div className = "outreachSubPage centerStageOffSeason">
             <h1>23-24 Off Season Outreach</h1>
-            <OutreachDescription imgPath={AfganToyDriveTwo} title= "Afgan Toy Drive and Robot Demo" inverted/>
+            <OutreachDescription imgPath={AfganToyDriveTwo} title= "Toy Drive and Robot Demo for Afgan Refugees" inverted/>
             <OutreachDescription imgPath={NOAAConnectHour} title= "Connect Hour With Mr. Jeremy Warren From NOAA"/>
             <OutreachDescription imgPath={SummerGame} title= "Summer Game" inverted/>
             <OutreachDescription imgPath={NationalNightOut} title= "National Night Out" />

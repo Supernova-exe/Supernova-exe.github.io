@@ -9,6 +9,7 @@ import SponsorsPage from "./SponsorsPage";
 import OutreachMainPage from "./OutreachMainPage";
 import OutreachCenterstage from "./OutreachCenterstage";
 import CenterStageOffSeason from "./CenterStageOffSeason";
+import Achievements from "./Achievements";
 
 
 const App : React.FC = () => {
@@ -29,6 +30,7 @@ const App : React.FC = () => {
                             <Route path= "23-24OffSeason" element={<CenterStageOffSeason/>}/>
                         </Route>
                         <Route path="sponsors" element={<SponsorsPage/>}/>
+                        <Route path = "achievements" element={<Achievements/>}/>
                     </Route>
                 </Routes>
             </HashRouter>
