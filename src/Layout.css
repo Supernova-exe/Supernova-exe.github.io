@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vw);
+    font-size:  1.5vw;
     background-color: hotpink;
 }
 
@@ -20,7 +20,7 @@
     display: inline-grid;
     align-items: center;
     white-space: nowrap;
-    justify-content: space-around;
+    padding: 0;
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .layout nav ul li h1 {
-    font-size: calc(5px + 1vw);
+    font-size: calc(3px + 1vw);
 }
 
 .layout .link {
@@ -42,6 +42,10 @@
     transition: color 0.5s;
 
     color: pink;
+}
+.layout ul
+{
+    padding: 0;
 }
 
 .not-footer

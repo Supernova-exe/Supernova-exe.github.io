@@ -85,7 +85,10 @@ const Layout = () => {
                             <Link className="link" onClick={() => setShowNav(false)} to="/outreach/main">Outreach</Link>
                         </li>
                         <li className="li-5">
-                            <Link className="link" onClick={() => setShowNav(false)} to="/achievements">Achievements</Link>
+                            <Link className="link" onClick={() => setShowNav(false)} to="/achievements/main">Achievements</Link>
+                        </li>
+                        <li className="li-6">
+                            <Link className="link" onClick={() => setShowNav(false)} to="/robots/main">Robot</Link>
                         </li>
                     </ul>
                 </nav>

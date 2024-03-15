@@ -11,11 +11,27 @@
     margin: 0 10px;
 
 }
+.outreachDescription h3
+{
+    font-size: 2.5rem;
+}
+.outreachDescription li
+{
+    font-size: 1.5rem;
+}
 
 @media (max-width: 1024px){
     .outreachDescription h2
     {
         font-size: 2rem;
+    }
+    .outreachDescription h3
+    {
+        font-size: 1.5rem;
+    }
+    .outreachDescription li
+    {
+        font-size: 1rem;
     }
 
 }
@@ -24,17 +40,36 @@
     {
         font-size: 1.5rem;
     }
+    .outreachDescription h3
+    {
+        font-size: 1rem;
+    }
+    .outreachDescription li
+    {
+        font-size: .75rem;
+    }
 }
 @media (max-width: 425px) {
     .outreachDescription h2
     {
         font-size: 1rem;
     }
+    .outreachDescription h3
+    {
+        font-size: .5rem;
+    }
 }
 @media (max-width: 350px) {
     .outreachDescription h2
     {
         font-size: .75rem;
+    }
+    .outreachDescription h3 {
+        font-size: .25rem;
+    }
+    .outreachDescription li
+    {
+        font-size: .5rem;
     }
 }
 
