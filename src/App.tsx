@@ -17,6 +17,7 @@ import RobotMainPage from "./RobotMainPage";
 import RobotCenterstage from "./RobotCenterstage";
 import RobotPowerplay from "./RobotPowerplay";
 import OffSeason24_25 from "./24-25OffSeason";
+import ThankYou from "./ThankYou";
 
 
 const App : React.FC = () => {
@@ -27,6 +28,7 @@ const App : React.FC = () => {
                 <Routes>
                     <Route path="*" element={<Layout/>}>
                         <Route index element={<HomePage/>}/>
+                        <Route path="thankyou" element={<ThankYou/>}/>
                         <Route path="meet" element={<MeetTheTeamPage/>}/>
                         <Route path="outreach" element={<OutreachPages/>}>
                             <Route path="main" element={<OutreachMainPage/>}/>

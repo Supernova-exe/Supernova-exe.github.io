@@ -4,6 +4,7 @@ import TextImageOverlay from "./TextImageOverlay";
 import mainImage from "./images/Supernova.jpg";
 import Markdown from "react-markdown";
 import GetMarkdown from "./GetMarkdown";
+import ContactForm from "./ContactForm";
 
 const WhoWeArePath : string = "WhoWeAre.md";
 const GetInTouchPath : string = "GetInTouch.md";
@@ -25,6 +26,7 @@ const HomePage: React.FC = () => {
              <Markdown>
                     {GetMarkdown(GetInTouchPath)}
              </Markdown>
+             <ContactForm/>
          </div>
      </div>
  )
