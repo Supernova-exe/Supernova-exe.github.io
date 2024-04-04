@@ -1,0 +1,33 @@
+.image-container {
+    position: relative;
+    align-content: center;
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container .overlay-content {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 768px) {
+    .image-container .overlay-content {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 576px) {
+    .image-container .overlay-content {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 375px) {
+    .image-container .overlay-content {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,44 @@
+.menuPage
+{
+    font-size: 2rem;
+}
+.menuPage ul
+{
+    list-style: none;
+}
+.menuPage ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.menuPage ul li
+{
+    margin: 3rem   auto;
+    width: min(50vw, 30rem);
+    background-color: #d0659b;
+    height: fit-content;
+}
+.menuPage ul
+{
+    padding: 0;
+    margin: 0;
+}
+.menuPage ul li a
+{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.menuPage ul li :hover
+{
+    transition: background-color 0.5s;
+    background-color: #ec5ea2;
+}
+@media (max-width: 350px) {
+    .menuPage ul li
+    {
+        width: 80vw;
+    }
+}

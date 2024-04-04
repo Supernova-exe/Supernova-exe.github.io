@@ -1,0 +1,9 @@
+.meetTheTeamPage {
+  display: inline-list-item;
+  flex-direction: row;
+  background-color: hotpink;
+}
+.meetTheTeamPage .bio-container div{
+  display: inline-block;
+  vertical-align: top;
+}

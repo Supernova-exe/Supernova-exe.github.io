@@ -1,0 +1,31 @@
+.achievements
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.achievements h1
+{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.achievements h2
+{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.achievements ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.achievements hr
+{
+    background-color:  #000;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
