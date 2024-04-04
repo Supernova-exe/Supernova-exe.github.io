@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c2dcdaf.css",
-    "main.js": "/static/js/main.c7143edc.js",
+    "main.js": "/static/js/main.ad2eb68f.js",
     "static/js/764.ef9146f1.chunk.js": "/static/js/764.ef9146f1.chunk.js",
     "static/js/228.ce0d9b5a.chunk.js": "/static/js/228.ce0d9b5a.chunk.js",
     "static/js/16.86813bda.chunk.js": "/static/js/16.86813bda.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/BattleOBaltimore.jpg": "/static/media/BattleOBaltimore.9da0f5c70ca190cc6b3d.jpg",
     "static/media/MarchMadness.jpg": "/static/media/MarchMadness.6e27483bd51a765785b2.jpg",
     "static/media/HelpingInfinity.jpg": "/static/media/HelpingInfinity.e0e72d2637fada0fd8a0.jpg",
+    "static/media/HerbertHooverMStemNight.jpg": "/static/media/HerbertHooverMStemNight.352feb2bfd9fda842675.jpg",
     "static/media/BullisQualPowerplay.jpg": "/static/media/BullisQualPowerplay.13c0e92657e54a6a0e2d.jpg",
     "static/media/ThomasSupernova.jpg": "/static/media/ThomasSupernova.33bd0a43e4b7b3d26d61.jpg",
     "static/media/SherrySupernova.jpg": "/static/media/SherrySupernova.ce04a9283f5fc39438b8.jpg",
@@ -35,18 +36,21 @@
     "static/media/RobotPowerplay.jpg": "/static/media/RobotPowerplay.b495b01601f37f8d0958.jpg",
     "static/media/AfganToyDriveTwo.jpg": "/static/media/AfganToyDriveTwo.a3e691dbf2aea9f371b0.jpg",
     "static/media/ScorpioImage.jpg": "/static/media/ScorpioImage.f13466d5acc83c693a0f.jpg",
+    "static/media/CeaderGroveESStemNight.jpg": "/static/media/CeaderGroveESStemNight.2850c5dd54f0c6c4a6a8.jpg",
     "static/media/RRIScrimmage.jpg": "/static/media/RRIScrimmage.71d7e63d5bd1fd3136e5.jpg",
     "static/media/ScrimmageOne.jpg": "/static/media/ScrimmageOne.99e2ac49973afad5e76c.jpg",
     "static/media/NistTour.jpg": "/static/media/NistTour.53d884314b537b525736.jpg",
     "static/media/MarchMadness1.jpg": "/static/media/MarchMadness1.889b4cd8039fa4d12120.jpg",
     "static/media/ThurgoodMarshallElementarySteamNight.jpg": "/static/media/ThurgoodMarshallElementarySteamNight.0073f4bc5ac97fd7cc36.jpg",
     "static/media/Reigonals.jpg": "/static/media/Reigonals.73daab51060b3699b238.jpg",
+    "static/media/FLLExplorerExpo2024.jpg": "/static/media/FLLExplorerExpo2024.306d044b3d1fbb1674cf.jpg",
     "static/media/AirplaneConnectHour.jpg": "/static/media/AirplaneConnectHour.6f1d17ff89c3c1c661ca.jpg",
     "static/media/SummerGame.jpg": "/static/media/SummerGame.03e9bc34de3145aaae3c.jpg",
     "static/media/FLLExplorerExpo.jpg": "/static/media/FLLExplorerExpo.c40c38463f6a2b1dcdda.jpg",
     "static/media/ScrimmageThree.jpg": "/static/media/ScrimmageThree.dff4c06c111b2f7bffe2.jpg",
     "static/media/FTCWorkshops.jpg": "/static/media/FTCWorkshops.5b4bef06dce8d190834d.jpg",
     "static/media/QualOne.jpg": "/static/media/QualOne.97fdf4283c1f15cbd058.jpg",
+    "static/media/WatkinsMillESStemNight.jpg": "/static/media/WatkinsMillESStemNight.74164ec73b62d165d420.jpg",
     "static/media/ScrimmageTwo.jpg": "/static/media/ScrimmageTwo.07ea26a3e387f6eca886.jpg",
     "static/media/SecretServiceTour.jpg": "/static/media/SecretServiceTour.464a55177a69b2b8b800.jpg",
     "static/media/ViaviConnectHour.jpg": "/static/media/ViaviConnectHour.65b19987f5b34aff5693.jpg",
@@ -69,11 +73,11 @@
     "static/media/Isaac.md": "/static/media/Isaac.33694ce85676bb7a1277.md",
     "static/media/WhoWeAre.md": "/static/media/WhoWeAre.a3e1e9f43c5dfb933df9.md",
     "main.0c2dcdaf.css.map": "/static/css/main.0c2dcdaf.css.map",
-    "main.c7143edc.js.map": "/static/js/main.c7143edc.js.map",
+    "main.ad2eb68f.js.map": "/static/js/main.ad2eb68f.js.map",
     "592.208eef96.chunk.js.map": "/static/js/592.208eef96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2dcdaf.css",
-    "static/js/main.c7143edc.js"
+    "static/js/main.ad2eb68f.js"
   ]
 }
