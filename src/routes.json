@@ -1,0 +1,16 @@
+[
+  { "path": "/", "component": "HomePage", "changefreq": "yearly", "priority": "1.0" },
+  { "path": "/thankyou", "component": "ThankYou", "changefreq": "yearly", "priority": "0.1" },
+  { "path": "/meet", "component": "MeetTheTeamPage", "changefreq": "yearly", "priority": "0.8" },
+  { "path": "/outreach/24-25OffSeason", "component": "OffSeason24_25", "changefreq": "monthly", "priority": "0.9" },
+  { "path": "/outreach/centerstage", "component": "OutreachCenterstage", "changefreq": "never", "priority": "0.7" },
+  { "path": "/outreach/23-24OffSeason", "component": "CenterStageOffSeason", "changefreq": "never", "priority": "0.5" },
+  { "path": "/outreach/powerplay", "component": "OutreachPowerplay", "changefreq": "never", "priority": "0.3" },
+  { "path": "/sponsors", "component": "SponsorsPage", "changefreq": "yearly", "priority": "0.4" },
+  { "path": "/achievements/main", "component": "AchievementsMainPage", "changefreq": "yearly", "priority": "0.3" },
+  { "path": "/achievements/centerstage", "component": "AchievementsCenterstage", "changefreq": "never", "priority": "0.8" },
+  { "path": "/achievements/powerplay", "component": "AchievementsPowerplay", "changefreq": "never", "priority": "0.2" },
+  { "path": "/robots/main", "component": "RobotMainPage", "changefreq": "yearly", "priority": "0.3" },
+  { "path": "/robots/centerstage", "component": "RobotCenterstage", "changefreq": "never", "priority": "0.8" },
+  { "path": "/robots/powerplay", "component": "RobotPowerplay", "changefreq": "never", "priority": "0.2" }
+]

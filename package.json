@@ -1,7 +1,7 @@
 {
   "name": "supernova-site",
-  "version": "0.1.0",
-  "homepage": "https://supernova-exe.github.io/",
+  "version": "1.1.0",
+  "homepage": "https://supernova-exe.github.io/#/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -29,7 +29,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build && npm run sitemap",
     "deploy": "gh-pages -d build",
-    "sitemap": "tsc --jsx react-jsx src/routes.ts --esModuleInterop true  && node ./sitemap-genartor.js"
+    "sitemap": "node  sitemap-gen.mjs"
   },
   "eslintConfig": {
     "extends": [

@@ -14,10 +14,10 @@ const OutreachMainPage : React.FC = () => {
                 </Markdown>
             <nav>
                 <ul>
-                    <li><Link to="../24-25OffSeason">2024-2025 Off Season</Link></li>
-                    <li><Link to="../centerstage">Centerstage (2023-2024)</Link></li>
-                    <li><Link to="../23-24OffSeason">2023-2024 Off Season</Link></li>
-                    <li><Link to="../powerplay">Powerplay (2022-2023)</Link></li>
+                    <li><Link to="/outreach/24-25OffSeason">2024-2025 Off Season</Link></li>
+                    <li><Link to="/outreach/centerstage">Centerstage (2023-2024)</Link></li>
+                    <li><Link to="/outreach/23-24OffSeason">2023-2024 Off Season</Link></li>
+                    <li><Link to="/outreach/powerplay">Powerplay (2022-2023)</Link></li>
                 </ul>
             </nav>
         </div>

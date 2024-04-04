@@ -1,11 +1,13 @@
 import React, {useEffect, useRef, useState} from "react";
 import "./css/Layout.css";
-import "./MobileNavBar.css";
-import  { Link, Outlet } from "react-router-dom";
+import "./css/MobileNavBar.css";
+import  { Link } from "react-router-dom";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import SupernovaLogo from './images/SupernovaSLogoTransparent.png';
 
-const Layout = () => {
+interface LayoutProps extends React.PropsWithChildren<{}> {}
+
+const Layout : React.FC<LayoutProps> = ({children}) => {
     const mobile : boolean =  window.innerWidth < 770;
     const [gap, setGap] = useState(0);
 
@@ -95,7 +97,7 @@ const Layout = () => {
                 </div>
                 </header>
                 <div className={!mobile ? "content" : showNav ? "content hide" : "content"}>
-                    <Outlet/>
+                    {children}
                 </div>
             </div>
             <footer style={showNav ? {display: "none"} : stickyFooter ? {

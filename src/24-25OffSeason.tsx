@@ -12,9 +12,6 @@ const OffSeason24_25 : React.FC = () => {
             <h1>24 -25 Off Season Outreach</h1>
             <OutreachDescription imgPath={MarchMadness} title= "March Madness" />
             <OutreachDescription imgPath={FLLStates} title= "FLL States" inverted/>
-
-
-
         </div>
     );
 }
