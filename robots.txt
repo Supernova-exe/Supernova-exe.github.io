@@ -1,4 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Sitemap: https://supernova-exe.github.io/sitemap.xm
 Disallow:
+
+Sitemap: https://supernova-exe.github.io/sitemap.xml
