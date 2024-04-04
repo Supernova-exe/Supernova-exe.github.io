@@ -1,7 +1,7 @@
 {
   "short_name": "Supernova.exe 21744",
   "name": "FTC Team Supernova.exe 21744",
-  "start_url": "/",
+  "start_url": "/#/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#FF69B4FF"
