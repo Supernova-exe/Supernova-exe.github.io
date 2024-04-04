@@ -29,7 +29,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build && npm run sitemap",
     "deploy": "gh-pages -d build",
-    "sitemap": "tsc --jsx react-jsx -p ./tsconfig.json   && node ./sitemap-genartor.js"
+    "sitemap": "tsc --jsx react-jsx src/routes.ts --esModuleInterop true  && node ./sitemap-genartor.js"
   },
   "eslintConfig": {
     "extends": [
