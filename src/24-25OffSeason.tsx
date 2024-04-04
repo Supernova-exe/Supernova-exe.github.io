@@ -1,5 +1,5 @@
 import React from 'react';
-import "./OutreachSubPage.css"
+import "./css/OutreachSubPage.css"
 import OutreachDescription from "./OutreachDescription"
 import MarchMadness from "./images/Outreach/MarchMadness1.jpg"
 import FLLStates from "./images/Outreach/FLLStates.jpg"

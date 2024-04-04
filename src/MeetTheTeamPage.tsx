@@ -1,5 +1,5 @@
 import React from "react";
-import "./MeetTheTeamPage.css";
+import "./css/MeetTheTeamPage.css";
 import IsaacImage from "./images/TeamMemberImages/IsaacSupernova.jpg";
 import BillyImage from "./images/TeamMemberImages/BillySupernova.jpg";
 import KateImage from "./images/TeamMemberImages/KateSupernova.jpg";

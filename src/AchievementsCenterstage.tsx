@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Achievements.css";
+import "./css/Achievements.css";
 import OutreachDescription from "./OutreachDescription";
 import  Regionals from "./images/Reigonals.jpg";
 import QualOne from "./images/QualOne.jpg";

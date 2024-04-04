@@ -1,5 +1,5 @@
 import React from "react";
-import "./MenuPage.css";
+import "./css/MenuPage.css";
 import {Link} from "react-router-dom";
 
 const AchievementsMainPage : React.FC = () => {

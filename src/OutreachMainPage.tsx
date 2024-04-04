@@ -1,7 +1,7 @@
 import React from "react";
 import GetMarkdown from "./GetMarkdown";
 import Markdown from "react-markdown";
-import "./MenuPage.css";
+import "./css/MenuPage.css";
 import {Link} from "react-router-dom";
 
 

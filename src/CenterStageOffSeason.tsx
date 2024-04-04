@@ -1,5 +1,5 @@
 import React from 'react';
-import "./OutreachSubPage.css"
+import "./css/OutreachSubPage.css"
 import OutreachDescription from "./OutreachDescription"
 import AfganToyDriveTwo from "./images/Outreach/AfganToyDriveTwo.jpg";
 import NOAAConnectHour from "./images/Outreach/NOAAConnectHour.jpg";

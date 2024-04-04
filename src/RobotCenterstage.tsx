@@ -1,6 +1,6 @@
 
 import React from 'react';
-import "./RobotPage.css";
+import "./css/RobotPage.css";
 import ScorpioImage from "./images/ScorpioImage.jpg";
 
 const RobotPowerplay : React.FC = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./MemberBio.css";
+import "./css/MemberBio.css";
 import GetMarkdown from "./GetMarkdown";
 import Markdown from "react-markdown";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomePage.css";
+import "./css/HomePage.css";
 import TextImageOverlay from "./TextImageOverlay";
 import mainImage from "./images/Supernova.jpg";
 import Markdown from "react-markdown";

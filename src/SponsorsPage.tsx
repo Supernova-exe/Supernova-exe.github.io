@@ -1,5 +1,5 @@
 import React from "react";
-import "./SponsorsPage.css";
+import "./css/SponsorsPage.css";
 import GoBuildaImage from "./images/Sponsors/GoBuilda.png";
 import MontgomeryPrintingImage from "./images/Sponsors/MontgomeryPrinting.png";
 import PrecisionPointImage from "./images/Sponsors/PrecisionPoint.jpg";

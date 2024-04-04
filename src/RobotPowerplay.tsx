@@ -1,5 +1,5 @@
 import React from 'react';
-import "./RobotPage.css";
+import "./css/RobotPage.css";
 import PowerplayImage from "./images/RobotPowerplay.jpg";
 
 const RobotCenterstage : React.FC = () => {

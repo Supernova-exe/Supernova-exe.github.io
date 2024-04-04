@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import './TextImageOverlay.css';
+import './css/TextImageOverlay.css';
 
 interface ImageWithTextProps {
     imageUrl: string;
