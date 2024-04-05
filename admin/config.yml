@@ -1,16 +1,17 @@
-backend:
-  name: github
-  repo:  Supernova-exe/supernova-exe.github.io
-  branch: main
-
-media_folder: "/src/images/"
-public_folder: "/public/"
-
 collections:
   - name: "markdown"
     label: "Markdown"
-    folder: "src/markdown"
+    folder: "/src/markdown"
     create: false
+    slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Filename", name: "filename", widget: "hidden", default: ""}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "bios"
+    label: "Bios"
+    folder: "/src/markdown/bios"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Filename", name: "filename", widget: "hidden", default: ""}
       - {label: "Body", name: "body", widget: "markdown"}

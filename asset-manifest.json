@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0c2dcdaf.css",
-    "main.js": "/static/js/main.ded5c670.js",
+    "main.js": "/static/js/main.a05a3e5c.js",
     "static/js/764.ef9146f1.chunk.js": "/static/js/764.ef9146f1.chunk.js",
+    "static/js/724.88d326ee.chunk.js": "/static/js/724.88d326ee.chunk.js",
     "static/js/228.ce0d9b5a.chunk.js": "/static/js/228.ce0d9b5a.chunk.js",
     "static/js/16.86813bda.chunk.js": "/static/js/16.86813bda.chunk.js",
     "static/js/396.99938f42.chunk.js": "/static/js/396.99938f42.chunk.js",
@@ -10,7 +11,6 @@
     "static/js/828.14f046da.chunk.js": "/static/js/828.14f046da.chunk.js",
     "static/js/484.40b71115.chunk.js": "/static/js/484.40b71115.chunk.js",
     "static/js/356.14c41e10.chunk.js": "/static/js/356.14c41e10.chunk.js",
-    "static/js/496.697b39f3.chunk.js": "/static/js/496.697b39f3.chunk.js",
     "static/js/592.208eef96.chunk.js": "/static/js/592.208eef96.chunk.js",
     "static/media/EXEScrimmageTwo.jpg": "/static/media/EXEScrimmageTwo.fa470c6601e197bea84c.jpg",
     "static/media/AfganToyDriveOne.jpg": "/static/media/AfganToyDriveOne.f9cc36cbf50ed3bf8776.jpg",
@@ -73,11 +73,11 @@
     "static/media/Isaac.md": "/static/media/Isaac.33694ce85676bb7a1277.md",
     "static/media/WhoWeAre.md": "/static/media/WhoWeAre.a3e1e9f43c5dfb933df9.md",
     "main.0c2dcdaf.css.map": "/static/css/main.0c2dcdaf.css.map",
-    "main.ded5c670.js.map": "/static/js/main.ded5c670.js.map",
+    "main.a05a3e5c.js.map": "/static/js/main.a05a3e5c.js.map",
     "592.208eef96.chunk.js.map": "/static/js/592.208eef96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2dcdaf.css",
-    "static/js/main.ded5c670.js"
+    "static/js/main.a05a3e5c.js"
   ]
 }
