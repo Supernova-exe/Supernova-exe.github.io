@@ -22,6 +22,7 @@ function GetMarkdown(path: string) : string
             })
             .catch(err => console.log(err));
     });
+    if(markdown.startsWith("<!DOCTYPE html>")) return "Error Loading Markdown File"
     return markdown;
 }
 export default GetMarkdown;
