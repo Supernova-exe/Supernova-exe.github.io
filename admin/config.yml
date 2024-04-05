@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo:  Supernova-exe/supernova-exe.github.io
+  branch: main
+
+media_folder: "/src/images/"
+public_folder: "/public/"
+
+collections:
+  - name: "markdown"
+    label: "Markdown"
+    folder: "src/markdown"
+    create: false
+    fields:
+      - {label: "Body", name: "body", widget: "markdown"}
