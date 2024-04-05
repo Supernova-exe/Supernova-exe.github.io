@@ -2,7 +2,6 @@ backend:
   name: github
   repo:  Supernova-exe/supernova-exe.github.io
   branch: main
-  site_domain: cms.netlify.com
 
 media_folder: "/src/images/Outreach"
 public_folder: "/images/Outreach"
