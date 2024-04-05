@@ -1,1 +1,4 @@
+---
+title: Get In Touch
+---
 If you have any questions or  want to reach out email us at [supernova21774@gmail.com](mailto:supernova21774@gmail.com) or fill out the form below and we will get back to you shortly.

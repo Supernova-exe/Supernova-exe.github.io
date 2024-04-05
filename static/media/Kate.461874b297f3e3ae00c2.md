@@ -1,3 +1,6 @@
+---
+title: Kate
+---
 **Documentation Team**
 
 Hi! My name is Kate. I am 13 years old and an 8th grader.

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[764],{2144:(e,s,a)=>{e.exports=a.p+"static/media/GetInTouch.91cac9197d6c93af9ff1.md"}}]);

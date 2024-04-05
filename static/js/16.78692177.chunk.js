@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[16],{1016:(e,s,a)=>{e.exports=a.p+"static/media/Billy.55c70d88531fa861d859.md"}}]);
