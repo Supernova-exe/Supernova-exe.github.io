@@ -2,6 +2,7 @@
   { "path": "/", "component": "HomePage", "changefreq": "yearly", "priority": "1.0" },
   { "path": "/thankyou", "component": "ThankYou", "changefreq": "yearly", "priority": "0.1" },
   { "path": "/meet", "component": "MeetTheTeamPage", "changefreq": "yearly", "priority": "0.8" },
+  { "path": "/outreach/main", "component": "OutreachMainPage", "changefreq": "yearly", "priority": "0.8" },
   { "path": "/outreach/24-25OffSeason", "component": "OffSeason24_25", "changefreq": "monthly", "priority": "0.9" },
   { "path": "/outreach/centerstage", "component": "OutreachCenterstage", "changefreq": "never", "priority": "0.7" },
   { "path": "/outreach/23-24OffSeason", "component": "CenterStageOffSeason", "changefreq": "never", "priority": "0.5" },

@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo:  Supernova-exe/supernova-exe.github.io
+  branch: main
+  site: https://supernova-exe.netlify.app/
+
+media_folder: "/src/images/Outreach"
+public_folder: "/images/Outreach"
+collections:
+  - name: "markdown"
+    label: "Markdown"
+    folder: "/src/markdown"
+    create: false
+    slug: "{{filename}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "{{filename}}"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "bios"
+    label: "Bios"
+    folder: "/src/markdown/bios"
+    create: false
+    slug: "{{filename}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string", default: "{{filename}}"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+

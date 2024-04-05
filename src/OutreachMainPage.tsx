@@ -10,7 +10,7 @@ const OutreachMainPage : React.FC = () => {
         <div className= "menuPage outreachMainPage">
             <h1>Outreach</h1>
                 <Markdown>
-                    {GetMarkdown("outreach/MainOutreach.md")}
+                    {GetMarkdown("MainOutreach.md")}
                 </Markdown>
             <nav>
                 <ul>
