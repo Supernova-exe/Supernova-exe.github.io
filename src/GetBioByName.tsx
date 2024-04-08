@@ -24,7 +24,7 @@ function formatList(list: string[]) : string {
 
     }
 }
-const GetBioByName: React.FC<GetBioByNameProps> = ({name}) => {
+const GetBioByName: React.FC<GetBioByNameProps> = ({name})  => {
     const [bio, setBio] = React.useState<Bio | null>(null);
 
     React.useEffect(() => {
@@ -35,6 +35,7 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name}) => {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
+                    // language=GraphQL
                     query: `
                     query Bios {
                         bios(where: {name: "${name}"}) {
@@ -56,9 +57,12 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name}) => {
         return null;
     }
 
+    // language=Markdown
     return (
         <div>
-            <Markdown>{`**${formatList(bio.team)} Team**  \n \n` + bio.body}</Markdown>
+            <Markdown>{`**${formatList(bio.team)} Team**   
+
+${bio.body}`}</Markdown>
         </div>
     );
 }

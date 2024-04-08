@@ -2,13 +2,9 @@ import React from "react";
 import "./css/HomePage.css";
 import TextImageOverlay from "./TextImageOverlay";
 import mainImage from "./images/Supernova.jpg";
-import Markdown from "react-markdown";
-import GetMarkdown from "./GetMarkdown";
 import ContactForm from "./ContactForm";
 import GetContentByTitle from "./GetContentByTitle";
 
-const WhoWeArePath : string = "WhoWeAre.md";
-const GetInTouchPath : string = "GetInTouch.md";
 const HomePage: React.FC = () => {
 
     return (
