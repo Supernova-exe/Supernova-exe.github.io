@@ -1,4 +1,8 @@
-import {useEffect, useState} from "react";
+import {ReactNode, useEffect, useState} from "react";
+
+const url : string = "https://api-us-east-1-shared-usea1-02.hygraph.com/v2/clur3o334009607w0k3camn37/master"
+
+
 
 function removeTitleField(markdownContent: string) : string {
     const lines = markdownContent.split('\n');

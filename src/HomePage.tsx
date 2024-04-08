@@ -5,6 +5,7 @@ import mainImage from "./images/Supernova.jpg";
 import Markdown from "react-markdown";
 import GetMarkdown from "./GetMarkdown";
 import ContactForm from "./ContactForm";
+import GetContentByTitle from "./GetContentByTitle";
 
 const WhoWeArePath : string = "WhoWeAre.md";
 const GetInTouchPath : string = "GetInTouch.md";
@@ -17,15 +18,11 @@ const HomePage: React.FC = () => {
         </TextImageOverlay>
          <div className = "aboutUs">
          <h1>Who we are</h1>
-             <Markdown>
-                    {GetMarkdown(WhoWeArePath)}
-             </Markdown>
+             <GetContentByTitle title="Who we are"/>
          </div>
          <div className="getInTouch">
                 <h1>Get in touch</h1>
-             <Markdown>
-                    {GetMarkdown(GetInTouchPath)}
-             </Markdown>
+             <GetContentByTitle title="Get in touch"/>
              <ContactForm/>
          </div>
      </div>

@@ -9,9 +9,7 @@ const OutreachMainPage : React.FC = () => {
     return (
         <div className= "menuPage outreachMainPage">
             <h1>Outreach</h1>
-                <Markdown>
-                    {GetMarkdown("MainOutreach.md")}
-                </Markdown>
+
             <nav>
                 <ul>
                     <li><Link to="/outreach/24-25OffSeason">2024-2025 Off Season</Link></li>
