@@ -13,18 +13,18 @@ interface GetBioByNameProps {
 function formatList(list: string[]) : string {
     if(list.length === 0) return "";
     if(list.length === 1) return list[0];
-    else if(list.length === 2) return list[0] + " and " + list[1];
+    else if(list.length === 2) return `${list[0]} and ${list[1]}`;
     else {
         let formattedList = "";
         for(let i = 0; i < list.length - 1; i++) {
-            formattedList += list[i] + ", ";
+            formattedList += `${list[i]}, `;
         }
-        formattedList += "and " + list[list.length - 1];
+        formattedList += `and ${list[list.length - 1]}`;
         return formattedList;
 
     }
 }
-const GetBioByName: React.FC<GetBioByNameProps> = ({name}) => {
+const GetBioByName: React.FC<GetBioByNameProps> = ({name})  => {
     const [bio, setBio] = React.useState<Bio | null>(null);
 
     React.useEffect(() => {
@@ -35,6 +35,7 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name}) => {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
+                    // language=GraphQL
                     query: `
                     query Bios {
                         bios(where: {name: "${name}"}) {
@@ -56,9 +57,12 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name}) => {
         return null;
     }
 
+    // language=Markdown
     return (
         <div>
-            <Markdown>{`**${formatList(bio.team)} Team**  \n \n` + bio.body}</Markdown>
+            <Markdown>{`**${formatList(bio.team)} Team**   
+
+${bio.body}`}</Markdown>
         </div>
     );
 }
