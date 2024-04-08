@@ -1,16 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c2dcdaf.css",
-    "main.js": "/static/js/main.b4459829.js",
-    "static/js/764.70a347e0.chunk.js": "/static/js/764.70a347e0.chunk.js",
-    "static/js/724.1d66901b.chunk.js": "/static/js/724.1d66901b.chunk.js",
-    "static/js/228.33d570e8.chunk.js": "/static/js/228.33d570e8.chunk.js",
-    "static/js/16.78692177.chunk.js": "/static/js/16.78692177.chunk.js",
-    "static/js/396.f9fa7a03.chunk.js": "/static/js/396.f9fa7a03.chunk.js",
-    "static/js/744.2a711708.chunk.js": "/static/js/744.2a711708.chunk.js",
-    "static/js/828.3ef4e2f5.chunk.js": "/static/js/828.3ef4e2f5.chunk.js",
-    "static/js/484.b1c0235c.chunk.js": "/static/js/484.b1c0235c.chunk.js",
-    "static/js/356.63ac8a58.chunk.js": "/static/js/356.63ac8a58.chunk.js",
+    "main.js": "/static/js/main.5dd08ae7.js",
     "static/js/592.208eef96.chunk.js": "/static/js/592.208eef96.chunk.js",
     "static/media/EXEScrimmageTwo.jpg": "/static/media/EXEScrimmageTwo.fa470c6601e197bea84c.jpg",
     "static/media/AfganToyDriveOne.jpg": "/static/media/AfganToyDriveOne.f9cc36cbf50ed3bf8776.jpg",
@@ -63,21 +54,12 @@
     "static/media/MontgomeryPrinting.png": "/static/media/MontgomeryPrinting.593bcca1957b9349fd1c.png",
     "static/media/GoBuilda.png": "/static/media/GoBuilda.70392c3f4881cea1a4d5.png",
     "index.html": "/index.html",
-    "static/media/Vinutha.md": "/static/media/Vinutha.b12580b32d18c103c2c9.md",
-    "static/media/Sherry.md": "/static/media/Sherry.83c029d2e9647a6cbde9.md",
-    "static/media/GetInTouch.md": "/static/media/GetInTouch.91cac9197d6c93af9ff1.md",
-    "static/media/Billy.md": "/static/media/Billy.55c70d88531fa861d859.md",
-    "static/media/Thomas.md": "/static/media/Thomas.c3f51abadc07b32dc8fc.md",
-    "static/media/Kate.md": "/static/media/Kate.461874b297f3e3ae00c2.md",
-    "static/media/MainOutreach.md": "/static/media/MainOutreach.1bf838d6efee93c15f15.md",
-    "static/media/WhoWeAre.md": "/static/media/WhoWeAre.1ce890d77f911a4a40e1.md",
-    "static/media/Isaac.md": "/static/media/Isaac.c2e02c56db42aea1a316.md",
     "main.0c2dcdaf.css.map": "/static/css/main.0c2dcdaf.css.map",
-    "main.b4459829.js.map": "/static/js/main.b4459829.js.map",
+    "main.5dd08ae7.js.map": "/static/js/main.5dd08ae7.js.map",
     "592.208eef96.chunk.js.map": "/static/js/592.208eef96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2dcdaf.css",
-    "static/js/main.b4459829.js"
+    "static/js/main.5dd08ae7.js"
   ]
 }

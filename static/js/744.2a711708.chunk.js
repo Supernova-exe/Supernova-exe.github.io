@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksupernova_site=self.webpackChunksupernova_site||[]).push([[744],{3744:(e,s,a)=>{e.exports=a.p+"static/media/Kate.461874b297f3e3ae00c2.md"}}]);
