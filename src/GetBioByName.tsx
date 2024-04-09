@@ -1,12 +1,13 @@
 import React from "react";
-import Markdown from "react-markdown";
+import {Body} from "./types";
 
 const url : string = "https://api-us-east-1-shared-usea1-02.hygraph.com/v2/clur3o334009607w0k3camn37/master"
 
 interface Bio {
     team: string[],
-    body: string,
+    body: Body,
 }
+
 interface GetBioByNameProps {
     name : string;
 }
@@ -40,7 +41,10 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name})  => {
                     query Bios($name: String!) {
                         bios(where: {name: $name}) {
                             team,
-                            body,
+                            body
+                            {
+                                html
+                            }
                         }
                     }`,
                     variables: {
@@ -61,10 +65,9 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name})  => {
     }
 
     return (
-        <div>
-            <Markdown>{`**${formatList(bio.team)} Team**
-
-${bio.body}`}</Markdown>
+        <div style={{textAlign: "left", width : "100%"}}>
+            <p><strong> {formatList(bio.team)} Team</strong></p>
+            <div dangerouslySetInnerHTML={{ __html: bio.body.html }} />
         </div>
     );
 }

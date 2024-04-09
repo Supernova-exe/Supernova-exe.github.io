@@ -1,10 +1,10 @@
 import React from "react";
-import Markdown from "react-markdown";
+import {Body} from "./types";
 
 const url : string = "https://api-us-east-1-shared-usea1-02.hygraph.com/v2/clur3o334009607w0k3camn37/master"
 
 interface Content {
-    body: string,
+    body: Body,
 }
 interface GetContentByTitleProps {
     title : string;
@@ -27,6 +27,9 @@ const GetContentByTitle: React.FC<GetContentByTitleProps> = ({title}) => {
                         contents(where : {title: $title})
                         {
                             body
+                            {
+                                html
+                            }
                         }
                     }`,
                     variables: {
@@ -48,7 +51,7 @@ const GetContentByTitle: React.FC<GetContentByTitleProps> = ({title}) => {
 
     return (
         <div>
-            <Markdown>{content.body}</Markdown>
+            <div dangerouslySetInnerHTML={{__html: content.body.html}}/>
         </div>
     );
 }
