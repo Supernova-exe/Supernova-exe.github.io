@@ -37,12 +37,15 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name})  => {
                 body: JSON.stringify({
                     // language=GraphQL
                     query: `
-                    query Bios {
-                        bios(where: {name: "${name}"}) {
+                    query Bios($name: String!) {
+                        bios(where: {name: $name}) {
                             team,
                             body,
                         }
-                    }`
+                    }`,
+                    variables: {
+                        name: name
+                    }
                 })
             });
 
@@ -57,10 +60,9 @@ const GetBioByName: React.FC<GetBioByNameProps> = ({name})  => {
         return null;
     }
 
-    // language=Markdown
     return (
         <div>
-            <Markdown>{`**${formatList(bio.team)} Team**   
+            <Markdown>{`**${formatList(bio.team)} Team**
 
 ${bio.body}`}</Markdown>
         </div>

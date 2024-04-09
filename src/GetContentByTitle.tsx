@@ -23,13 +23,15 @@ const GetContentByTitle: React.FC<GetContentByTitleProps> = ({title}) => {
                 body: JSON.stringify({
                     // language=GraphQL
                     query: `
-                    query Contents {
-                        contents(where : {title: "${title}"})
+                    query Contents($title: String!) {
+                        contents(where : {title: $title})
                         {
                             body
                         }
+                    }`,
+                    variables: {
+                        title: title
                     }
-`
                 })
             });
 
